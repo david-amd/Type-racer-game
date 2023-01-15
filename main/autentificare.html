@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="pentruAutentificare.css"
+  </head>
+
+
+  <body class="bg-secondary text-light">
+    <div class="container">
+       
+
+        <!-- Login Form  -->
+
+        <!-- login -->
+        <form class="form" id="login">
+            <header class="form__title text-center p-3 mb-5 bg-dark">
+                <h1>Login</h1>
+            </header>
+            
+            <!-- username -->
+            <div class="form__input-group text-center">
+                <input type="text" class="form__input" autofocus placeholder="Username or email">
+            </div>
+
+            <!-- password  -->
+            <div class="form__input-group text-center">
+                <input type="password" class="form__input" autofocus placeholder="Password">
+            </div>
+
+            <!-- button  -->
+            <div align="center">
+            <input type=button class="btn-dark" onClick="location.href='index.html'"
+                value='Continue'>
+            </div>
+
+
+            <p class="form__text text-center">
+            <!-- don't have an account -->
+            <a class="form_link" href="./" id="linkCreateAccount">Don't have an account? Create an account.</a>
+            </p>
+        </form>
+
+
+
+
+        <!-- Create Account Form  -->
+
+        <!-- create account -->
+        <form class="form form--hidden" id="createAccount">
+            <header class="form__title text-center p-3 mb-5 bg-dark">
+                <h1>Create Account</h1>
+            </header>
+            
+            <!-- username -->
+            <div class="form__input-group text-center">
+                <input type="text" class="form__input" autofocus placeholder="Username">   
+            </div>
+
+            <!-- Email  -->
+            <div class="form__input-group text-center">
+                <input type="text" class="form__input" placeholder="Email">   
+            </div>
+
+            <!-- password  -->
+            <div class="form__input-group text-center">
+                <input type="password" class="form__input" autofocus placeholder="Password">   
+            </div>
+ 
+            <!-- button  -->
+            <div align="center">
+                <input type=button class="btn-dark" onClick="location.href='index.html'"
+                    value='Continue'>
+                </div>
+
+
+            <p class="form__text text-center">
+                <!-- already have an account -->
+                <a class="form_link" href="./" id="linkLogin">Already have an account? Sign in.</a>
+                </p>
+            
+        </form>
+        
+
+    </div>  
+    <script src="pentruAutentificare.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+/* pentru a ascunde cele doua formuri(cate unul) */
+
+.form--hidden {
+    display: none;
+}
