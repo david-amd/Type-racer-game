@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login / Sign Up</title>
+    <title>Autentificare / Înscriere</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="pentruAutentificare.css"
@@ -14,51 +14,51 @@
     <div class="container">
        
 
-        <!-- Login Form  -->
+        <!-- Form pentru autentificare  -->
 
         <!-- login -->
         <form class="form" id="login">
             <header class="form__title text-center p-3 mb-5 bg-dark">
-                <h1>Login</h1>
+                <h1>Autentificare</h1>
             </header>
             
-            <!-- username -->
+            <!-- nume de utilizator -->
             <div class="form__input-group text-center">
-                <input type="text" class="form__input" autofocus placeholder="Username or email">
+                <input type="text" class="form__input" autofocus placeholder="Nume de utilizator/Email">
             </div>
 
-            <!-- password  -->
+            <!-- parola  -->
             <div class="form__input-group text-center">
-                <input type="password" class="form__input" autofocus placeholder="Password">
+                <input type="password" class="form__input" autofocus placeholder="Parola">
             </div>
 
-            <!-- button  -->
+            <!-- buton  -->
             <div align="center">
             <input type=button class="btn-dark" onClick="location.href='index.html'"
-                value='Continue'>
+                value='Continuă'>
             </div>
 
 
             <p class="form__text text-center">
-            <!-- don't have an account -->
-            <a class="form_link" href="./" id="linkCreateAccount">Don't have an account? Create an account.</a>
+            <!-- nu ai cont -->
+            <a class="form_link" href="./" id="linkCreateAccount">Nu ai cont? Creați un cont.</a>
             </p>
         </form>
 
 
 
 
-        <!-- Create Account Form  -->
+        <!-- Form pentru creare cont  -->
 
-        <!-- create account -->
+        <!-- creare cont -->
         <form class="form form--hidden" id="createAccount">
             <header class="form__title text-center p-3 mb-5 bg-dark">
-                <h1>Create Account</h1>
+                <h1>Creare cont</h1>
             </header>
             
-            <!-- username -->
+            <!-- nume de utilizator -->
             <div class="form__input-group text-center">
-                <input type="text" class="form__input" autofocus placeholder="Username">   
+                <input type="text" class="form__input" autofocus placeholder="Nume de utilizator">   
             </div>
 
             <!-- Email  -->
@@ -66,21 +66,21 @@
                 <input type="text" class="form__input" placeholder="Email">   
             </div>
 
-            <!-- password  -->
+            <!-- parola  -->
             <div class="form__input-group text-center">
-                <input type="password" class="form__input" autofocus placeholder="Password">   
+                <input type="password" class="form__input" autofocus placeholder="Parola">   
             </div>
  
-            <!-- button  -->
+            <!-- buton  -->
             <div align="center">
                 <input type=button class="btn-dark" onClick="location.href='index.html'"
-                    value='Continue'>
+                    value='Continuă'>
                 </div>
 
 
             <p class="form__text text-center">
-                <!-- already have an account -->
-                <a class="form_link" href="./" id="linkLogin">Already have an account? Sign in.</a>
+                <!-- ai deja cont -->
+                <a class="form_link" href="./" id="linkLogin">Ai deja cont? Conectează-te.</a>
                 </p>
             
         </form>
